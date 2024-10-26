@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathyfy</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Weathyfy</h1>
+        <div class="weather-card">
+            <input type="text" id="cityInput" placeholder="Enter city ">
+            <button onclick="fetchWeather()">Get Weather</button>
+            <div class="weatherDetails" class="hidden">
+                <h3 id="cityName">City Name</h3>
+                <p id="lastupdated">Last Updated:</p>
+                <p id="temperature">Temperature:</p>
+                <p id="humidity">Humidity:</p>
+                <p id="feelslike">Feels Like: </p>
+                <p id="precipitation">Precipitation: </p>
+                <p id="windspeed">Windspeed: </p>
+                <p id="conditions">Conditions: </p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
